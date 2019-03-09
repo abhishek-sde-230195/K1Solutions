@@ -1,0 +1,45 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light padding-nil border1">
+    <div class="container-fluid ">
+      <div class="nav-flex">
+        <div class="navbar-brand" >
+          <a class="navbar-item"  [routerLink] ="['/home']">
+            <img src="assets/images/logo1.jpg" alt="K1Solutions" width="60" height="60">
+          </a>
+        </div>
+        <div class="container padd-sm">
+              <div class="row">
+                  <div class="col-sm12 "><b>K1 Solutions</b></div>
+                  <div class="col-sm-12  hide"> <p class="bold-offwhite">Printing and Power Solutions Provider</p></div>   
+              </div>
+        </div>
+      </div>
+      <button class="navbar-toggler navbar-toggler-right collapsed transition" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="my-1 mx-2 close transition " *ngIf="!collapsed" (click)="onToggle()">X</span>
+        <span class="navbar-toggler-icon " *ngIf="collapsed" (click)="onToggle()"></span>
+      </button>
+    
+      <div class="navbar-collapse" [class.collapse] ="collapsed" id="navbarSupportedContent">
+        <ul class="navbar-nav  ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" [routerLink] ="['/home']"  routerLinkActive = "active"
+            [routerLinkActiveOptions] = "{exact: true}">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" [routerLink] ="['/product']"  routerLinkActive = "active"
+              [routerLinkActiveOptions] = "{exact: true}">Products and Services </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" [routerLink] ="['/clients']"  routerLinkActive = "active"
+                [routerLinkActiveOptions] = "{exact: true}">Major Clients </a>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink] ="['/contact']"  routerLinkActive = "active"
+            [routerLinkActiveOptions] = "{exact: true}">Contact</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </nav>

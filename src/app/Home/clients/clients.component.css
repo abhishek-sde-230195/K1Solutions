@@ -1,0 +1,34 @@
+.light-brown{
+    color:#4d4d4d;
+    background: #f7f9f8;
+}
+.content{
+    background: #f7f9f8;
+    min-height: 350px;
+    width: 100%
+}
+.box:hover{
+    background: #035494;
+}
+.box{
+    
+    width:130px;
+    margin:6px;
+    padding:5px 5px 5px 5px;
+    border: 1px solid #ccc;
+    background: #fff;
+    min-height: 130px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.container{
+    padding-left:80px;
+}
+@media all and (max-width: 800px){
+    .container{
+        padding-left:40px;
+    }
+}
+.client{
+    padding-top:25px;
+}

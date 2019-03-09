@@ -1,0 +1,15 @@
+.about-us{
+    min-height: 250px;
+    background:#c5c5c5;;
+}
+.list{
+    color: whitesmoke;
+    padding-top:25px;
+}
+.list-ab{
+    font-weight: bold;
+    color:#44596f;
+}
+.txt-shadow{
+    text-shadow: 0 2px 2px #101820;
+}

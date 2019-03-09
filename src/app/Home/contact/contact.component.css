@@ -1,0 +1,55 @@
+.padding-0{
+    padding:0px 0px 0px 0px;
+}
+@media screen and (min-width: 998px){
+    .contact-us{
+        min-height: 350px;
+        background-image: url('/assets/images/contactus.jpg');
+        padding: 9em 15em 9em 15em;
+        background-position: 100% 85%;
+    }
+    .padding-xtra{
+        padding-left: 5em;
+    }
+    .padding-up{
+        padding-top:4em;
+        padding-left: 5em;
+    }
+}
+@media screen and (max-width: 997px){
+    .contact-us{
+        min-height: 350px;
+        background-image: url('/assets/images/contactus.jpg');
+        background-position: 0% 82%;
+        padding: 5em 0em 5em 0em;
+    }
+    .padding-xtra{
+        padding-left: 2em;
+    }
+    .padding-up{
+        padding-top:4em;
+    }
+}
+
+.white-text{
+    color: #fff!important;
+}
+.white-text h1{
+    font-size: 3.25em;
+}
+.txt-shadow{
+    text-shadow: 0 2px 2px #101820;
+}
+.content{
+    background:#314c69;
+    padding-top:10px;
+    color: #fff!important;
+    min-height: 350px;
+}
+pre{
+    color: #fff!important;
+}
+.text-md{
+    font-size:18px;
+    padding-bottom:20px;
+}
